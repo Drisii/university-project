@@ -10,11 +10,13 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
   <body>
     <nav>
       <a href="index.html"><img src="img/logo.png" /></a>
-      <div class="nav-links">
+      <div class="nav-links" id="navLinks">
+        <i class="fa fa-times" onclick="hideMenu()"></i>
         <ul>
           <li><a href="">HOME</a></li>
           <li><a href="">ABOUT</a></li>
@@ -23,12 +25,37 @@
           <li><a href="">CONTACT</a></li>
         </ul>
       </div>
+      <i class="fa fa-bars" onclick="showMenu()"></i>
     </nav>
     <div class="text-box">
       <h1>World's Biggest University</h1>
-      <p1>Johnson the world's biggest university with the best facilities and the greatesr courses such as Psychology, IT, business, data analytics & law.</p1>
-    <a href="">Visit Us To Know More</a>
+      <p1>Eduford the world's biggest university with the best facilities and the greatesr courses.</p1>
+    <br><a href=""class="hero-btn">Visit Us To Know More</a>
     </div>
+     <!----course---->
+  <section class="course">
+    <h1>Courses We Offer</h1>
+    <p>We offer some of the best courses such as Information Technology,Medical and Biology Sciencies,Business Administration and Sales,<br>Engineering,Finance,Law and more.  </p>
+  </section>
+ 
 
+
+
+   
+   
+   
+   
+   
+   <!----javascript for toogle menu--->
+   <script>
+      var navLinks= document.getElementById("navLinks");
+    function showMenu(){
+      navLinks.style.right= "0";
+    }
+      function hideMenu(){
+      navLinks.style.right= "-200px";
+    }
+    </script>
+   
   </body>
 </html>
