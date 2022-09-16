@@ -2,16 +2,23 @@
 <html>
   <head>
     <title>University Website Design</title>
-   <style>
-    body{
-      background-color:cadetblue;    }
-   </style>
-<link rel="stylesheet" href="styles/style.css">  
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-</head>
+    <style>
+      body {
+        background-color: cadetblue;
+      }
+    </style>
+    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
   <body>
     <nav>
       <a href="index.html"><img src="img/logo.png" /></a>
@@ -27,35 +34,40 @@
       </div>
       <i class="fa fa-bars" onclick="showMenu()"></i>
     </nav>
-    <div class="text-box">
-      <h1>World's Biggest University</h1>
-      <p1>Eduford the world's biggest university with the best facilities and the greatesr courses.</p1>
-    <br><a href=""class="hero-btn">Visit Us To Know More</a>
-    </div>
-     <!----course---->
-     <section class="course">
-      <h1>Courses We Offer</h1>
-      <p>We offer some of the best courses such as Information Technology,Medical and Biology Sciencies,Business Administration and Sales,<br>Engineering,Finance,Law and more.  </p>
+
+    <!----Hero content---->
+    <section>
+      <div class="text-box">
+        <h1>World's Biggest University</h1>
+        <p1
+          >Eduford the world's biggest university with the best facilities and
+          the greatesr courses.</p1
+        >
+        <br /><br /><a href="" class="hero-btn">Visit Us To Know More</a>
+      </div>
     </section>
- 
 
+    <!----course---->
+    <section>
+      <div class="course">
+        <h1>Courses We Offer</h1>
+        <p>
+          We offer some of the best courses such as Information
+          Technology,Medical and Biology Sciencies,Business Administration and
+          Sales,<br />Engineering,Finance,Law and more.
+        </p>
+      </div>
+    </section>
 
-
-   
-   
-   
-   
-   
-   <!----javascript for toogle menu--->
-   <script>
-      var navLinks= document.getElementById("navLinks");
-    function showMenu(){
-      navLinks.style.right= "0";
-    }
-      function hideMenu(){
-      navLinks.style.right= "-200px";
-    }
+    <!----javascript for toogle menu--->
+    <script>
+      var navLinks = document.getElementById("navLinks");
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
     </script>
-   
   </body>
 </html>
