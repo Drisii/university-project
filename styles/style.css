@@ -107,8 +107,7 @@ nav .fa {
   .nav-links ul {
     padding: 30px;
   }
-}
-/*course*/
+  /*----course----*/
 .course {
   width: 100%;
   text-align: center;
@@ -117,5 +116,38 @@ nav .fa {
   padding-top: 25px;
   padding-bottom: 25px;
 }
-
-/*this will fix the view in smaller screens*/
+h1{
+    font-size: 36px;
+    font-weight: 600;
+}
+p{
+    color:white;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+}
+.row{
+    margin-left:17%;
+display:flex;
+justify-content:space-between;
+}
+.course-col{
+    flex-basis:31%;
+    background:antiquewhite;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 30px;
+    height: 250px;
+    box-sizing: content-box;
+    transition: 0.5s;
+}
+ /*this wil fix the box view*/
+ h3{
+    text-align:center;
+    font-weight: 600;
+    margin:10px 0 ;
+ }
+ .course-col:hover{
+    box-shadow:0 0 20px 0px rgba(0,0,0,0.2);
+ }
