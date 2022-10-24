@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>University Website Design</title>
+    <style>
+      body {
+     background-color:lightblue;
+      }
+    </style>
+    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <section class="sub-header">
+    <nav>
+      <a href="index.html"><img src="img/logo.png" /></a>
+      <div class="nav-links" id="navLinks">
+        <i class="fa fa-times" onclick="hideMenu()"></i>
+        <ul>
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="about.html">ABOUT</a></li>
+          <li><a href="course.html">COURSE</a></li>
+          <li><a href="blog.html">BLOG</a></li>
+          <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+      </div>
+      <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <h1>Our Certificate & Online Programs For 2021</h1>
+    </section>
+<!---blog page content-->
+<section class="blog-content">
+<div class="row">
+  <div class="blog-left">
+    <img src="img/certificate.jpg" >
+  <h2>Our Certificate & Online Programs For 2021</h2>
+ <p>A college certificate validates your knowledge of specific skills often in a demanding field within the work place. Essentially, a certificate acts as evidence that a student completed education and/or training in a specific field during their college courses. Depending on what type of program you were to take, it would serve as the evidence that you completed education, training, and/or obtained skills in a very specified area of study or practice.  Similarly, many college degrees serve as general validation of completion in school, too, but do not have specific workplace transferability. Having these transferable skills is highly desired by many employers, especially by those in demanding work fields.</p>
+  <br>
+ <p>The difference between a certificate and a degree.
+  Certificate programs are relatively short term, 3-9 months, low in cost, and have high rates of completion relative to degree programs.
+  Certificates offer very specialized education and training that allow the student to develop transferable skill-sets specific to the work field or type of job they desire to be in. They also allow the student to dive right into their desired area of ​​focus and to graduate in a shorter time frame with the skills they need to succeed in the work field.
+  A degree on the other hand is a long-term program, typically 2 to 4 years when the student can commit to full time and without taking time off from school. Along with providing knowledge and study in the student's major area of ​​focus, degrees also require students to take general education studies (gen eds) and sometimes pre-requisite classes depending on the student's field choice.
+  Both certificate and degree programs are extremely valuable to students. A post-secondary education is not only desirable to employers but in many cases it is mandatory and in today's time, not having a post-secondary education or significant training and experience to replace it can severely put you behind the competition.
+</p>
+ <p>We offer a various amount of certificates such as Business Certificates,Health Care Certificates,Technology Certificates,Criminal Justice Certificates,Arts and Design Certificates,Education Certificates,Skilled Trade Certificates,Legal Certificates.</p>
+
+<div class="comment-box">
+<h3>Leave a comment</h3>
+<form class="comment-form">
+<input type="text" placeholder="Enter Name">
+<input type="email" placeholder="Enter Email">
+<textarea rows="5" placeholder="Your Comment"></textarea>
+<button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+</form>
+
+</div>
+
+
+
+
+
+</div>
+  <div class="blog-right">
+    <h3>Post Categories</h3>
+    <div>
+      <span>Business Analytics</span>
+    <span>21</span>
+    </div>
+    <div>
+      <span>Data Science</span>
+    <span>28</span>
+    </div>
+    <div>
+      <span>Macine Learning</span>
+    <span>15</span>
+    </div>
+    <div>
+      <span>Computer Science</span>
+    <span>34</span>
+    </div>
+    <div>
+      <span>AutoCAD</span>
+    <span>42</span>
+    </div>
+    <div>
+      <span>Journalism</span>
+    <span>22</span>
+    </div>
+    <div>
+      <span>Commerce</span>
+    <span>30</span>
+    </div>
+  </div>
+</div>
+</section>
+ <!----footer---->
+<section class="footer">
+  <h4>About Us</h4>
+  <p>Study at Eudford university one of the biggest and most well known.<br>With amazing facilities and the greatest professors and a variety of courses to choose from! </p>
+  <div class="icons">
+    <i class="fa fa-facebook"></i>
+    <i class="fa fa-twitter"></i>
+    <i class="fa fa-instagram"></i>
+    <i class="fa fa-linkedin"></i>
+  </div>
+  
+  </section>
+ 
+    
+    <!----javascript for toogle menu--->
+    <script>
+      var navLinks = document.getElementById("navLinks");
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>
+    
